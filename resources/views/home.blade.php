@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="{{asset('builder/media/625de0e1c384f1650319585.png')}}" style="max-width: 100%;"
+                    <img src="{{asset('img/625de0e1c384f1650319585.png')}}" style="max-width: 100%;"
                          data-aos="fade-up"
                          data-aos-delay="200" alt="..." class="aos-init aos-animate">
                 </div>

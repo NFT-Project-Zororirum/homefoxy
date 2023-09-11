@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInDown  animated animated" data-wow-duration="0.3s "
                  data-wow-delay="0.3s " style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s;">
                 <div class="footer-box ">
-                    <div class="logo "><img src="{{asset('assets/images/logoIcon/logo.png')}}">
+                    <div class="logo "><img src="{{asset('img/logo.png')}}">
                     </div>
                     <p class="text ">Safe, secure, &amp; innovative crypto currency borrow &amp; lending solutions.</p>
                 </div>
