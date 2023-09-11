@@ -23,5 +23,6 @@
 <div id="scrollUp " title="Scroll To Top " style="display: block; ">
     <i class="fas fa-arrow-up "></i>
 @include('components.js')
+@yield('script')
 </body>
 </html>
