@@ -1,3 +1,5 @@
+<div id="scrollUp " title="Scroll To Top " style="display: block; ">
+    <i class="fas fa-arrow-up "></i>
 <script src="{{asset('js/frontend/manifest.js')}} "></script>
 <script src="{{asset('js/frontend/vendor.js')}} "></script>
 <script src="{{asset('js/frontend/app.js')}} "></script>
