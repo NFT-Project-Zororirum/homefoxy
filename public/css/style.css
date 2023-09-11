@@ -1,0 +1,45 @@
+@media (min-width: 780px) {
+    .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .menuitem {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menusub {
+        flex-grow: 1;
+        width: 240px;
+    }
+
+    .nav-item.dropdown {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.dropdown-menu {
+    background: #000000de;
+    position: fixed;
+    color: #000000;
+    padding: 24px;
+    /*width: 780px;*/
+}
+@media (max-width: 780px) {
+
+    .menuitem nav {
+        width: 100%;
+    }
+}
+
+
+.nav-link img {
+    border-radius: 30px;
+    margin: 10px;
+}
