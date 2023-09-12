@@ -4,6 +4,7 @@
     <title>Home</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('assets/images/logoIcon/favicon.png')}}">
     <link href="{{asset('css/frontend/app.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('assets/frontends/default/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/frontends/default/css/responsive.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900%7CCaveat"
