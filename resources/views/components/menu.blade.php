@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img style="max-height: 50px" src="{{asset('img/logo.jpg')}}" class="logo">
+                <img style="max-height: 50px" src="{{asset('img/Logo-Foxy-Exchanges.png')}}" class="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
