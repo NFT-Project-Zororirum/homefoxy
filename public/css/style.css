@@ -44,12 +44,18 @@
     font-weight: normal;
 
 }
-
+.pr-menu
+{
+    font-size: 14px;
+}
 .nav-link img {
     border-radius: 30px;
     margin: 10px;
 }
-
+/*.main-menu {*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*}*/
 
 .menusub li {
     display: flex;
