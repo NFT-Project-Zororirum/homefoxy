@@ -1054,7 +1054,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-form row">
+        <section class="contact-form row my-5">
             <div class="contact-form-content col-md-12">
                 <span class="title contact-form-content__text">Liên hệ với chúng tôi</span>
                 <span class="contact-form-content__text">Hãy cho chúng tôi biết nhu cầu của bạn</span>
@@ -1071,7 +1071,7 @@
             </div>
 
         </section>
-        <section class="assets_management-signup my-5">
+        <section class="assets_management-signup my-4">
             <h2>Định hình lại cách quản lý tài sản kỹ thuật số với Binance</h2>
             <div>
                 <a href="">
@@ -1096,7 +1096,6 @@
                 let id = $(this).data('id');
                 $('.assets_management-block3--about').addClass('d-none');
                 $('#section' + id).removeClass('d-none');
-
             });
             $('#button--1').click(function () {
                 $('.button--1').show();
