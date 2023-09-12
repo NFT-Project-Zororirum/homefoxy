@@ -21,3 +21,6 @@ Route::get('/blog', function () {
     return view('blog');
 });
 Route::view('vip-gate','vipgate');
+Route::get('/assets-management', function () {
+    return view('assetsManagement');
+});
