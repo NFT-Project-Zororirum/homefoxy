@@ -31,8 +31,11 @@
 }
 
 @media (max-width: 780px) {
-    .menuitem nav {
+    .nav-item {
         width: 100%;
+    }
+    .dropdown-menu {
+        border: 0;
     }
 }
 
@@ -52,10 +55,6 @@
     border-radius: 30px;
     margin: 10px;
 }
-/*.main-menu {*/
-/*    display: flex;*/
-/*    justify-content: flex-start;*/
-/*}*/
 
 .menusub li {
     display: flex;
