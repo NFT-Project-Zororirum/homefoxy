@@ -198,9 +198,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #000000de;
-  -webkit-box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);
-  box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);
+  /*background: #000000de;*/
+  /*-webkit-box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);*/
+  /*box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);*/
 }
 .mein-menu .navbar {
   padding: 0px 0px;
@@ -317,9 +317,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #000000de;
-    -webkit-box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);
-    box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);
+    /*background: #000000de;*/
+    /*-webkit-box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);*/
+    /*box-shadow: 3.801px 12.432px 24px 0px rgb(0 0 0 / 40%);*/
     z-index: 99999;
 }
 

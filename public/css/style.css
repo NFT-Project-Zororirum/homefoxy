@@ -6,11 +6,12 @@
     .menuitem {
         display: flex;
         width: 100%;
-        justify-content: space-between;
     }
+
     .menusub {
         flex-grow: 1;
-        width: 240px;
+        flex-direction: column;
+        width: 250px;
     }
 
     .nav-item.dropdown {
@@ -25,21 +26,39 @@
 }
 
 .dropdown-menu {
-    background: #000000de;
     position: fixed;
-    color: #000000;
     padding: 24px;
-    /*width: 780px;*/
 }
-@media (max-width: 780px) {
 
+@media (max-width: 780px) {
     .menuitem nav {
         width: 100%;
     }
 }
 
+.title-sub {
+    font-size: 14px;
+}
+.description {
+    font-size: 11px;
+    font-weight: normal;
+
+}
 
 .nav-link img {
     border-radius: 30px;
     margin: 10px;
 }
+
+
+.menusub li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    flex: 1;
+
+}
+
