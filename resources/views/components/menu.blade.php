@@ -9,9 +9,10 @@
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse main-menu" id="navbarNavDropdown">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link text-dark" style="font-size: 14px" href="#">BuyCrypto</a>
                     </li>
                     <li class="nav-item">
@@ -196,7 +197,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="/blog" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
                                             </div>
@@ -243,7 +244,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="/assets-management" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/Asset Management Solutions.svg')}}" alt="" width="35px">
                                             </div>
@@ -268,7 +269,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="/vip-gate" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/VIP Portal.svg')}}" alt="" width="35px">
                                             </div>
@@ -342,12 +343,11 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Historical Market Data.svg')}}" alt=""
-                                                     width="25px">
+                                                <img src="{{asset('icon/Historical Market Data.svg')}}" alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Historical Market Data</div>
-                                                <div class="description">Your all-in-one trading data repository</div>
+                                                <div class="description">Your all-in-one trading data</div>
                                             </div>
                                         </a>
                                     </li>
@@ -414,19 +414,17 @@
                             </div>
                         </div>
                     </li>
-                </ul>
 
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/trade/BTC/USDT" style="font-size: 14px" >Trade</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" style="font-size: 14px" aria-current="page" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" style="font-size: 14px" href="#faqs">FAQ</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ms-auto">
                         <a class="nav-link btn btn-primary text-white p-2" href="/login">Start Now !</a>
                     </li>
                 </ul>
