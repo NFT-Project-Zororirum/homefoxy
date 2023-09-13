@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/blog/test', function () {
+    return view('blog-detail');
+});
 Route::view('vip-gate', 'vipgate');
 Route::get('/assets-management', function () {
     return view('assetsManagement');

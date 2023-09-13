@@ -1,6 +1,12 @@
 @extends('components.layout')
 @section('style')
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Arial", "sans-serif";
+        }
         .web3wallet-banner__right {
             width: 80vh;
             height: 65vh;
