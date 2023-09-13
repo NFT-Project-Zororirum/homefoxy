@@ -5,6 +5,9 @@
             background-color: #FCD535;
             color: #181A20;
         }
+        .image-show {
+            overflow: hidden;
+        }
 
         .card-vip_title {
             font-weight: 600;
@@ -12,6 +15,7 @@
             line-height: 56px;
             color: #1E2329;
         }
+
 
         .div-banner {
             width: 100%;
@@ -29,50 +33,35 @@
             font-style: normal;
         }
 
-        .image-show {
-            overflow: hidden;
-        }
 
-
-        @keyframes moveRight {
+        @keyframes slideInLeft {
             0% {
-                transform: translateX(-100%);
+                transform: translateX(-100%); /* Di chuyển ảnh ra khỏi màn hình về bên trái */
             }
             100% {
-                transform: translateX(0);
+                transform: translateX(0); /* Di chuyển ảnh về vị trí ban đầu */
             }
         }
 
-        /* Định nghĩa animation cho image2 từ bên dưới chèn lên */
-        @keyframes moveUp {
+        @keyframes slideInUp {
             0% {
-                transform: translateY(100%);
+                transform: translateY(100%); /* Di chuyển ảnh ra khỏi màn hình về phía dưới */
             }
             100% {
-                transform: translateY(-120%);
+                transform: translateY(-120%) translateX(40px); /* Di chuyển ảnh về vị trí ban đầu */
             }
         }
-
 
         @media (min-width: 780px) {
-            .image1, .image2 {
-                transition: all 2s; /* Thời gian hiển thị hình ảnh */
-                opacity: 0; /* Ẩn hình ảnh lúc đầu */
-            }
-
-            .show-on-scroll {
-                opacity: 1 !important; /* Hiển thị hình ảnh */
-                transform: translateX(0) !important; /* Di chuyển hình ảnh về vị trí ban đầu */
-            }
-
             .image1 {
-                position: relative;
-                animation: moveRight 2s forwards; /* Di chuyển từ trái sang */
+                animation: slideInLeft 2s forwards; /* Hiệu ứng di chuyển từ trái sang phải */
+                width: 80%;
             }
 
             .image2 {
-                position: relative;
-                animation: moveUp 2s forwards; /* Di chuyển từ dưới lên */
+                animation: slideInUp 2s forwards; /* Hiệu ứng di chuyển từ dưới lên */
+                width: 80%;
+                bottom: 0;
             }
 
             .vip-text mb-5 {
@@ -103,6 +92,15 @@
         }
 
         @media (max-width: 780px) {
+            .image1 {
+                animation: slideInLeft 2s forwards; /* Hiệu ứng di chuyển từ trái sang phải */
+                width: 100%;
+            }
+
+            .image2 {
+                animation: slideInUp 2s forwards; /* Hiệu ứng di chuyển từ dưới lên */
+                width: 100%;
+            }
             .vip-text mb-5 {
                 box-sizing: border-box;
                 margin: 16px 0px 0px;
@@ -171,40 +169,35 @@
         </div>
     </section>
 
+
     <section class="container">
         <h1 class="explore-vip mb-5">Explore VIP Portal</h1>
-        <div class="container row image-show">
-            <div class="col-6">
-                <img class="image1" src="{{asset('img/vipgate/explore-1.png')}}" alt="" width="90%">
-                <img class="image2" src="{{asset('img/vipgate/explore-2.png')}}" alt="" width="90%">
+    </section>
+
+    <section class="container image-show">
+        <div class="container row">
+            <div class="col-md-6" style="overflow: hidden;height: 450px">
+                <img class="image1" src="{{asset('img/vipgate/explore-1.png')}}" alt="" >
+                <img class="image2" src="{{asset('img/vipgate/explore-2.png')}}" alt="" >
             </div>
         </div>
     </section>
 
 @endsection
 @section('js')
-{{--    <script>--}}
-{{--        $(document).ready(function() {--}}
-{{--            // Hàm kiểm tra vị trí cuộn và áp dụng hiệu ứng--}}
-{{--            function checkScroll() {--}}
-{{--                var scrollTop = $(window).scrollTop();--}}
-
-{{--                $('.image1, .image2').each(function() {--}}
-{{--                    var objectOffset = $(this).offset().top;--}}
-{{--                    var windowHeight = $(window).height();--}}
-
-{{--                    if (scrollTop > objectOffset - windowHeight + 100) {--}}
-{{--                        $(this).addClass('show-on-scroll');--}}
-{{--                    }--}}
-{{--                });--}}
-{{--            }--}}
-
-{{--            // Gọi hàm khi trang tải xong--}}
-{{--            checkScroll();--}}
-
-{{--            // Gọi hàm khi người dùng cuộn trang--}}
-{{--            $(window).scroll(checkScroll);--}}
-{{--        });--}}
-{{--    </script>--}}
+    <script>
+        $(window).scroll(function() {
+            $('.image-show').each(function() {
+                var hT = $(this).offset().top,
+                    hH = $(this).outerHeight(),
+                    wH = $(window).height(),
+                    wS = $(this).scrollTop();
+                if (wS > (hT+hH-wH)){
+                    $(this).find('.image1').addClass('animate-image1');
+                    $(this).find('.image2').addClass('animate-image2');
+                }
+            });
+        });
+    </script>
 
 @endsection
