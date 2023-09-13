@@ -13,7 +13,7 @@
              data-aos-delay="300"></div>
     </div>
 
-    <div class="container pb-1">
+    <div class="container pb-5">
     </div>
 </header>
 @yield('content')

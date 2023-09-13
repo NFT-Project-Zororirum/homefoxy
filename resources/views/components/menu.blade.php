@@ -74,7 +74,7 @@
                                 </ul>
                                 <ul class="nav flex-column menusub">
                                     <li>
-                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="/trade/BTC/USDT" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
                                             </div>
@@ -377,7 +377,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="/web3wallet" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/DeFi Wallet.svg')}}" alt="" width="35px">
                                             </div>
@@ -413,16 +413,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="/trade/BTC/USDT" style="font-size: 14px" >Trade</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="font-size: 14px" aria-current="page" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="font-size: 14px" href="#faqs">FAQ</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <a class="nav-link btn btn-primary text-white p-2" href="/login">Start Now !</a>
