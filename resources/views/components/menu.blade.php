@@ -74,7 +74,7 @@
                                 </ul>
                                 <ul class="nav flex-column menusub">
                                     <li>
-                                        <a href="/trade/BTC/USDT" class="nav-link d-flex align-items-center text-dark">
+                                        <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
                                                 <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
                                             </div>

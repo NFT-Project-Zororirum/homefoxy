@@ -187,14 +187,15 @@
 @section('js')
     <script>
         $(window).scroll(function() {
+            var wS = $(this).scrollTop();
             $('.image-show').each(function() {
                 var hT = $(this).offset().top,
                     hH = $(this).outerHeight(),
-                    wH = $(window).height(),
-                    wS = $(this).scrollTop();
-                if (wS > (hT+hH-wH)){
-                    $(this).find('.image1').addClass('animate-image1');
-                    $(this).find('.image2').addClass('animate-image2');
+                    wH = $(window).height();
+                if (wS >= (hT+hH-wH)){
+                    console.log(123)
+                    $(this).find('.image1').addClass('image1');
+                    $(this).find('.image2').addClass('image2');
                 }
             });
         });
