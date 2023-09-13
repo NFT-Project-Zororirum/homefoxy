@@ -3,6 +3,7 @@
 <script src="{{asset('js/frontend/app.js')}} "></script>
 <script src="{{asset('assets/frontends/default/js/main.js')}} "></script>
 <script src="{{asset('assets/frontends/default/js/jquery.min.js')}} "></script>
+@yield('js')
 <script>
     $(document).ready(function () {
         $('.footer-item').click(function () {
