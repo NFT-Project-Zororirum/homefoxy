@@ -17,11 +17,12 @@
     </div>
 </header>
 @yield('content')
+<!--====== Scroll To Top Start ======-->
+<div id="scrollUp" title="Scroll To Top">
+    <i class="fas fa-arrow-up "></i>
+</div>
 @include("components.footer")
 
-<!--====== Scroll To Top Start ======-->
-<div id="scrollUp " title="Scroll To Top " style="display: block; ">
-    <i class="fas fa-arrow-up "></i>
 @include('components.js')
 @yield('script')
 </body>

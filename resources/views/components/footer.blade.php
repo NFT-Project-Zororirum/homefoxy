@@ -115,40 +115,7 @@
                     </ul>
                 </div>
             </div>
-            <style>
-                .footer h5 {
-                    font-size: 18px;
-                    line-height: 18px;
-                    font-weight: 600;
-                    color: #1e2329;
-                    font-style: normal;
-                }
 
-                .footer ul li {
-                    list-style: none;
-                    box-sizing: border-box;
-                    display: -webkit-box;
-                    display: -webkit-flex;
-                    display: -ms-flexbox;
-                    font-size: 14px;
-                    margin-bottom: 12px;
-                    cursor: pointer;
-                }
-
-                .footer ul li a {
-                    text-decoration: none;
-                    font-size: 14px;
-                    color: #707A8A;
-                    cursor: pointer;
-                }
-
-                .footer ul li a i {
-                    text-decoration: none;
-                    font-size: 24px;
-                    color: #707A8A;
-                    cursor: pointer;
-                }
-            </style>
         </div>
     </div>
     {{--    mobile display--}}
