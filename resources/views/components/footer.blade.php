@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer ">
     <div class="container ">
         <div class="row justify-content-between ">
             <div class="col-lg-3 col-md-6 wow fadeInDown  animated animated" data-wow-duration="0.3s "
