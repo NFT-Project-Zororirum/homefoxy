@@ -12,57 +12,5 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
-{{--    <style>--}}
-{{--        .footer ul {--}}
-{{--            padding: 0;--}}
-{{--            margin: 0;--}}
-{{--        }--}}
-
-{{--        .footer h5 {--}}
-{{--            font-size: 18px;--}}
-{{--            line-height: 18px;--}}
-{{--            font-weight: 600;--}}
-{{--            color: #1e2329;--}}
-{{--            font-style: normal;--}}
-{{--        }--}}
-
-{{--        .footer ul li {--}}
-{{--            list-style: none;--}}
-{{--            box-sizing: border-box;--}}
-{{--            display: -webkit-box;--}}
-{{--            display: -webkit-flex;--}}
-{{--            display: -ms-flexbox;--}}
-{{--            font-size: 14px;--}}
-{{--            margin-bottom: 12px;--}}
-{{--            cursor: pointer;--}}
-{{--        }--}}
-
-{{--        .footer ul li a {--}}
-{{--            text-decoration: none;--}}
-{{--            font-size: 14px;--}}
-{{--            color: #707A8A;--}}
-{{--            cursor: pointer;--}}
-{{--        }--}}
-
-{{--        .footer ul li a i {--}}
-{{--            text-decoration: none;--}}
-{{--            font-size: 24px;--}}
-{{--            color: #707A8A;--}}
-{{--            cursor: pointer;--}}
-{{--        }--}}
-
-{{--        @media screen and (max-width: 767px) {--}}
-{{--            .footer-desktop {--}}
-{{--                display: none;--}}
-{{--            }--}}
-{{--        }--}}
-
-{{--        @media screen and (min-width: 768px) {--}}
-{{--            .footer-mobile {--}}
-{{--                display: none;--}}
-{{--            }--}}
-{{--        }--}}
-{{--    </style>--}}
     @yield('style')
 </head>

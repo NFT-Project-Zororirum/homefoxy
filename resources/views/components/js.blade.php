@@ -5,10 +5,6 @@
 <script src="{{asset('assets/frontends/default/js/jquery.min.js')}} "></script>
 <script>
     $(document).ready(function () {
-        // $('.footer-item').click(function () {
-        //     $(this).find('i.fa-plus').toggle();
-        //     $(this).find('i.fa-minus').toggle();
-        // })
         $('.footer-item').click(function () {
             $(this).find('i').toggle();
         });
