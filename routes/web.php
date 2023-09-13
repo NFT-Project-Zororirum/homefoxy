@@ -24,3 +24,6 @@ Route::view('vip-gate', 'vipgate');
 Route::get('/assets-management', function () {
     return view('assetsManagement');
 });
+Route::get('/web3wallet', function () {
+    return view('web3wallet');
+});
