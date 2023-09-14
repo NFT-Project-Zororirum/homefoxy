@@ -399,7 +399,7 @@
     </style>
 @endsection
 @section('content')
-    <div class="container">
+    <div class="container my-5">
         <section class="assets_management-banner row">
             <div class="col-md-7 col-sm-12">
                 <div class="assets_management-banner__logo">
@@ -504,7 +504,6 @@
                             </div>
                         </div>
                     </ul>
-
                 </div>
             </div>
         </section>
