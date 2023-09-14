@@ -30,3 +30,6 @@ Route::get('/assets-management', function () {
 Route::get('/web3wallet', function () {
     return view('web3wallet');
 });
+Route::get('/payment', function () {
+    return view('payment');
+});

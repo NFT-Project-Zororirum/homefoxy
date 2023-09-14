@@ -160,7 +160,7 @@
     </style>
 @endsection
 @section('content')
-    <div class="container">
+    <div class="container my-4">
         <h1 class="title-page">Binance Blog</h1>
         <section class="slide-blog">
             <div id="carouselExampleDark" class="carousel carousel-dark slide slide-blog">
