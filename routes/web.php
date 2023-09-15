@@ -22,6 +22,9 @@ Route::get('/blog', function () {
 });
 Route::view('vip-gate', 'vipgate');
 Route::view('about','about');
+Route::view('career','career');
+Route::view('press','press');
+Route::view('community','community');
 Route::get('/assets-management', function () {
     return view('assetsManagement');
 });

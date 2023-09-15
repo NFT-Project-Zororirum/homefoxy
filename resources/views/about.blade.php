@@ -55,6 +55,13 @@
             background-color: #FAFAFA;
 
         }
+        .about-menu{
+            color: #1E2329;
+        }
+        .about-menu:hover{
+            color: #F0B90B;
+            transition: 0.3s ease-in;
+        }
 
         @media (min-width: 767px) {
             .card-blog__title {
@@ -147,6 +154,14 @@
     </style>
 @endsection
 @section('content')
+    <section class="mb-5 container">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link about-menu" href="/about">About</a></li>
+            <li class="nav-item"><a class="nav-link about-menu" href="/career">Careers</a></li>
+            <li class="nav-item"><a class="nav-link about-menu" href="/press">Press</a></li>
+            <li class="nav-item"><a class="nav-link about-menu" href="/community">Community</a></li>
+        </ul>
+    </section>
     <section class="about-bg mb-5">
         <div class="container">
             <div class="row">
@@ -169,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 svg-row d-flex align-items-center">
-                    <img src="{{asset('img/about/svgexport-10.svg')}}" alt="">
+                    <img src="{{asset('img/about/svgexport-9.svg')}}" alt="">
                     <div>
                         <h3 class="about-svg-text">300 bn</h3>
                         <p class="about-svg-des">Spot transactions in 2022</p>
@@ -205,9 +220,8 @@
             </div>
             <section class="card-blog">
                 <div class="card mb-3">
-                    <div class="card-body">
-                        <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                    <div class="card-body text-center">
+                        <img src="{{asset('svg/svgexport-47.svg')}}"
                             class="about-img" alt="...">
                         <h4 class="card-title card-blog__title">Foxyexchange Academy</h4>
                         <p class="card-text card-blog__text">Foxyexchange Research provides institutional-grade
@@ -216,9 +230,9 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                            src="{{asset('svg/svgexport-34.svg')}}"
                             class="about-img" alt="...">
                         <h4 class="card-title card-blog__title">Foxyexchange Charity</h4>
                         <p class="card-text card-blog__text">Foxyexchange Charity is a non-profit organization dedicated
@@ -226,9 +240,9 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                            src="{{asset('img/about/svgexport-9.svg')}}"
                             class="about-img" alt="...">
                         <h4 class="card-title card-blog__title">Foxyexchange Exchange</h4>
                         <p class="card-text card-blog__text">Foxyexchange Exchange is the largest crypto exchange by
@@ -236,9 +250,9 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                            src="{{asset('svg/svgexport-45.svg')}}"
                             class="about-img" alt="...">
                         <h4 class="card-title card-blog__title">Foxyexchange Labs</h4>
                         <p class="card-text card-blog__text">Foxyexchange Labs is a venture capital and accelerator
@@ -246,9 +260,9 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                            src="{{asset('svg/svgexport-19.svg')}}"
                             class="about-img" alt="...">
                         <h4 class="card-title card-blog__title">Foxyexchange Research</h4>
                         <p class="card-text card-blog__text">Foxyexchange Research provides institutional-grade
@@ -257,11 +271,11 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img
-                            src="{{asset('img/about/svgexport-10.svg')}}"
+                            src="{{asset('svg/svgexport-30.svg')}}"
                             class="about-img" alt="...">
-                        <h4 class="card-title card-blog__title">Foxyexchange Charity</h4>
+                        <h4 class="card-title card-blog__title">Foxyexchange NFT</h4>
                         <p class="card-text card-blog__text">Foxyexchange NFT is the official NFT marketplace of
                             Foxyexchange, dedicated to building a community-focused platform that enhances user
                             experience. </p>
@@ -447,5 +461,114 @@
                 <a href="#" class="btn about-button">Explore Jobs</a>
             </div>
         </section>
+        <div class="container mb-10">
+            <section>
+                <h1 class="explore-vip mb-5">Explore VIP Portal</h1>
+            </section>
+            <section class="slide-blog mb-5">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide slide-blog">
+                    <div class="carousel-indicators my-2">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="card mb-3 py-4">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="https://noithatbinhminh.com.vn/wp-content/uploads/2022/08/anh-dep-19.jpg"
+                                             class="img-fluid rounded-start slide-blog__img" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body mx-4">
+                                            <h2 class="vip-title">Customized Dashboard</h2>
+                                            <p class="vip-text mb-3">See your personalized trading and investment
+                                                highlights, as well as fee information, trading statistics, VIP-only
+                                                updates, and Binance news. Participate in special spot surveys to help us
+                                                improve.</p>
+                                            <a class="vip-learn" href="#">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="card mb-3 py-4">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="https://noithatbinhminh.com.vn/wp-content/uploads/2022/08/anh-dep-19.jpg"
+                                             class="img-fluid rounded-start slide-blog__img" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body mx-4">
+                                            <h2 class="vip-title">Data & Analytics</h2>
+                                            <p class="vip-text mb-3">Access advanced data analytics with one click. Explore
+                                                flow analytics for a basket of futures contracts, DeFi index dispersions,
+                                                and market liquidity in three dimensions (cost to trade, bid/ask spread, and
+                                                order book depth).</p>
+                                            <a class="vip-learn" href="#">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card mb-3 py-4">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="https://noithatbinhminh.com.vn/wp-content/uploads/2022/08/anh-dep-19.jpg"
+                                             class="img-fluid rounded-start slide-blog__img" alt="...">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body mx-4">
+                                            <h2 class="vip-title">Exclusive Services</h2>
+                                            <p class="vip-text mb-3">Enjoy exclusive services available only in the VIP
+                                                Portal, such as additional rate limits, IP whitelisting, and margin
+                                                borrowing and sub-account limit adjustments. Request customized reports for
+                                                audit purpose.</p>
+                                            <a class="vip-learn" href="#">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="div-banner mb-5" style="padding: 50px 0px">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img class="vip-mailbox" src="{{asset('img/vipgate/mailbox.png')}}" alt="">
+                        <div class="vip-mailbox-content">
+                            <p class="vip-text mb-3">Tell us what features you want to see in the VIP Portal</p>
+                            <div class="d-flex">
+                                <input data-bn-type="input" placeholder="Share your thoughts" class="form-control ms-auto"
+                                       value="">
+                                <a href="#" class="btn btn-enter" style="margin: 0px 10px">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-5">
+                <div class="row">
+                    <h1 class="mb-5 text-center card-vip_title">Learn How to Become a Binance VIP</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3 text-lg-end">
+                        <a href="#" class="btn btn-enter">More Infomation</a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a href="#" class="btn btn-enter">Frequently Asked
+                            Questions</a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </div>
 @endsection
