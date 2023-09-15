@@ -366,6 +366,9 @@
         .assets_management-signup a .btn-signup{
             background-color: #EAECEF;
         }
+        .assets_management-block3--about1 .button{
+            margin: 1rem 0;
+        }
         @media screen and (max-width: 768px) {
             .assets_management-banner__img {
                 display: none;
