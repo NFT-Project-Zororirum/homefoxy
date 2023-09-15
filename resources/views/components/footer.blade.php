@@ -6,7 +6,7 @@
                 <h5>Về chúng tôi</h5>
                 <div>
                     <ul>
-                        <li><a href="#">Thông tin thêm</a></li>
+                        <li><a href="/about">Thông tin thêm</a></li>
                         <li><a href="#">Báo chí</a></li>
                         <li><a href="#">Cơ hội nghề nghiệp</a></li>
                         <li><a href="#">Hợp tác kinh doanh</a></li>

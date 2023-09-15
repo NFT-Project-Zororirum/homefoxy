@@ -71,10 +71,17 @@
     width: 100%;
     height: auto;
     flex: 1;
+    margin: 10px 0px;
 
 }
-.mgl-auto {
-    margin-left:auto ;
+
+.menusub li a {
+    width: 100%
 }
+
+.mgl-auto {
+    margin-left: auto;
+}
+
 
 
