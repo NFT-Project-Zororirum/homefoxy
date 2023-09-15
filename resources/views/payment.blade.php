@@ -506,6 +506,9 @@
             .payment-faq-content__info{
                 padding: 0.1rem 0;
             }
+            .payment-market-content__img{
+                width: 100%;
+            }
         }
     </style>
 @endsection

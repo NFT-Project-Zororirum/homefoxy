@@ -262,83 +262,110 @@
             </div>
         </section>
         <section class="card-blog">
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            </a>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            </a>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            </a>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            </a>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3">
-                <img
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
-                    class="card-img-top blog-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh báo
-                        rủi ro thiết</h5>
-                    <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn luôn
-                        an toàn và bảo
-                        mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
-                    <p class="card-text card-blog__texttime">2023-08-18</p>
+            </a>
+            <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
                 </div>
+            </a>
+            <div id="loading">
+                loading...
             </div>
         </section>
     </div>
@@ -367,5 +394,75 @@
             let id = $(this).data('id');
             console.log(id);
         });
+
+        let postCount = 0;
+        let loadMoreThreshold = 400;
+        $(window).scroll(function () {
+            if ($(window).scrollTop() + $(window).height() > $(document).height() - loadMoreThreshold) {
+                loadMorePosts();
+            }
+        });
+        function loadMorePosts() {
+            postCount++
+            $('#loading').show();
+            let html = `
+ <a href="/blog/test">
+                <div class="card mb-3">
+                    <img
+                        src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+                        class="card-img-top blog-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+                            báo
+                            rủi ro thiết</h5>
+                        <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+                            luôn
+                            an toàn và bảo
+                            mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+                        <p class="card-text card-blog__texttime">2023-08-18</p>
+                    </div>
+                </div>
+            </a>
+`;
+            if (postCount < 5) {
+                $('.card-blog').append(html);
+            }
+            $('#loading').hide();
+            // $.ajax({
+            //     type: "GET",
+            //     url: "/getMorePosts",
+            //     data: {
+            //         'offset': postCount
+            //     },
+            //     success: function (data) {
+            //         let html = `
+            //          <a href="/blog/test">
+            //     <div class="card mb-3">
+            //         <img
+            //             src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/anh-thien-nhien-dep-nhat-the-gioi-troi-tim.jpg"
+            //             class="card-img-top blog-img" alt="...">
+            //         <div class="card-body">
+            //             <h5 class="card-title card-blog__title">Giao dịch P2P an toàn: Luôn an toàn nhờ các mẹo và cảnh
+            //                 báo
+            //                 rủi ro thiết</h5>
+            //             <p class="card-text card-blog__text">Tính năng mới trên Binance P2P được thiết kế để giúp bạn
+            //                 luôn
+            //                 an toàn và bảo
+            //                 mật. Đừng bao giờ bỏ qua các cảnh báo rủi ro được thiết kế riêng cho bạn!</p>
+            //             <p class="card-text card-blog__texttime">2023-08-18</p>
+            //         </div>
+            //     </div>
+            // </a>
+            //         `;
+            //         $('.card-blog').append(data);
+            //         postCount += 5;
+            //         $('#loading').hide();
+            //     },
+            //     error: function () {
+            //         $('#loading').hide();
+            //     }
+            // });
+        }
+
     </script>
 @endsection
