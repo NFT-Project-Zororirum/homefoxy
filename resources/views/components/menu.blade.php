@@ -1,7 +1,7 @@
 <header class="" style="height: 5rem;margin-bottom: 0rem">
     <div class="mein-menu">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img style="max-height: 50px" src="{{asset('img/Logo-Foxy-Exchanges.png')}}" class="logo">
                 </a>

@@ -198,7 +198,7 @@
             }
 
             .web3wallet-connect--btn .btn {
-                width: 62vh;
+                width: 22rem;
             }
 
             .web3wallet-connect--title h3 {
@@ -236,7 +236,8 @@
             }
 
             .web3wallet-banner__right {
-                height: 60vh;
+                height: auto;
+                width: auto;
             }
 
             .web3wallet-banner__left {
@@ -257,7 +258,12 @@
 
             .web3wallet-banner__left .btn {
                 margin: 1em 0;
-                width: 62vh;
+                width: 22rem;
+            }
+            .web3wallet-banner__right img{
+                width: 90%;
+                height: auto;
+                margin: 0;
             }
         }
     </style>

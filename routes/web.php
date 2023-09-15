@@ -33,3 +33,6 @@ Route::get('/web3wallet', function () {
 Route::get('/payment', function () {
     return view('payment');
 });
+Route::get('/tax', function () {
+    return view('tax');
+});
