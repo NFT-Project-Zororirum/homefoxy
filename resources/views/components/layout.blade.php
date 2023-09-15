@@ -7,15 +7,15 @@
       data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1087.0">
 @include("components.menu")
 <!-- Banners Start -->
-<header class="header section" id="home">
+{{--<header class=" section" id="home">--}}
 {{--    <div class="shapes-container">--}}
 {{--        <div class="static-shape shape-main cutout x2 bottom-right aos-init aos-animate" data-aos="fade-down"--}}
 {{--             data-aos-delay="300"></div>--}}
 {{--    </div>--}}
 
 {{--    <div class="pb-5">--}}
-    </div>
-</header>
+{{--    </div>--}}
+{{--</header>--}}
 @yield('content')
 <!--====== Scroll To Top Start ======-->
 <div id="scrollUp" title="Scroll To Top">
