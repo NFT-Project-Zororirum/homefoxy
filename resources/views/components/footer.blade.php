@@ -44,7 +44,7 @@
                         <li><a href="#">Pay</a></li>
                         <li><a href="#">Thẻ quà tặng</a></li>
                         <li><a href="#">BABT</a></li>
-                        <li><a href="#">Thuế</a></li>
+                        <li><a href="/tax">Thuế</a></li>
                     </ul>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                         <li><a href="#">Pay</a></li>
                         <li><a href="#">Thẻ quà tặng</a></li>
                         <li><a href="#">BABT</a></li>
-                        <li><a href="#">Thuế</a></li>
+                        <li><a href="/tax">Thuế</a></li>
                     </ul>
                 </div>
             </div>

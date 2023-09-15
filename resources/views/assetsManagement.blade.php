@@ -383,8 +383,8 @@
                 line-height: 12px;
             }
             .contact-form-btn{
-                width: 100%;
-                margin: 0;
+                width: 95%;
+                margin: 0 auto;
             }
             .assets_management-signup a .btn{
                 width: 100%;
@@ -395,11 +395,55 @@
                 line-height: 32px;
                 font-weight: 600;
             }
+            .assets_management-banner__logo img{
+                height: 22px;
+            }
+            .assets_management-banner__title h1{
+                font-size: 32px;
+                line-height: 40px;
+                color: #1e2329;
+                font-weight: 600;
+            }
+            .assets_management-banner__para p{
+                max-width: 100%;
+            }
+            .assets_management-block2 h1{
+                font-size: 28px;
+                line-height: 36px;
+            }
+            .assets_management-block3 h2{
+                box-sizing: border-box;
+                margin: 0px 0px 40px;
+                min-width: 0px;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 36px;
+                color: rgb(30, 35, 41);
+            }
+            .assets_management-block3--about img{
+                width: 90%;
+                margin: 0 auto;
+            }
+            .assets_management-block3--about .button{
+                display: flex;
+                margin: 1rem 0;
+            }
+            .assets_management-block3--about .button .btn{
+               width: 20rem;
+                height: 3rem;
+            }
+            .assets_management-block3--about .button .btn:nth-child(2){
+                font-size: 12px;
+            }
+            .contact-form-content .title{
+                font-size: 24px;
+                line-height: 32px;
+            }
         }
     </style>
 @endsection
 @section('content')
-    <div class="container">
+    <div class="container my-5">
         <section class="assets_management-banner row">
             <div class="col-md-7 col-sm-12">
                 <div class="assets_management-banner__logo">
@@ -504,7 +548,6 @@
                             </div>
                         </div>
                     </ul>
-
                 </div>
             </div>
         </section>
@@ -617,7 +660,7 @@
                             <div class="button">
                                 <a href="#" class="btn mx-2" style="background-color: #F0B90B;color: #1E2329">Đăng kí
                                     ngay</a>
-                                <a href="#" class="btn mx-2" style="background-color: #EAECEF;color: #1E2329">Các câu
+                                <a href="#" class="btn mx-2" style="background-color: #EAECEF;color: #1E2329;">Các câu
                                     hỏi thường
                                     gặp</a>
                             </div>

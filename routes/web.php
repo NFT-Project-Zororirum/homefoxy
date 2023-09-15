@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/blog/test', function () {
+    return view('blog-detail');
+});
 Route::view('vip-gate', 'vipgate');
 Route::view('about','about');
 Route::view('career','career');
@@ -30,4 +33,10 @@ Route::get('/assets-management', function () {
 });
 Route::get('/web3wallet', function () {
     return view('web3wallet');
+});
+Route::get('/payment', function () {
+    return view('payment');
+});
+Route::get('/tax', function () {
+    return view('tax');
 });
