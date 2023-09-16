@@ -1,6 +1,6 @@
 <div class="mein-menu">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid" style="margin: 0px 30px">
+        <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <img style="max-height: 50px" src="{{asset('img/Logo-Foxy.png')}}" class="logo">
             </a>

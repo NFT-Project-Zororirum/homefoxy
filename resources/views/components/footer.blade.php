@@ -58,7 +58,7 @@
                         <li><a href="#">Dịch vụ cho tổ chức và VIP</a></li>
                         <li><a href="#">Giao dịch OTC</a></li>
                         <li><a href="#">Giới thiệu</a></li>
-                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="/affiliate">Affiliate</a></li>
                         <li><a href="#">BNB</a></li>
                         <li><a href="#">Đăng ký niêm yết coin</a></li>
                         <li><a href="#">Đăng ký Thương nhân P2P</a></li>
@@ -195,7 +195,7 @@
                         <li><a href="#">Dịch vụ cho tổ chức và VIP</a></li>
                         <li><a href="#">Giao dịch OTC</a></li>
                         <li><a href="#">Giới thiệu</a></li>
-                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="/affiliate">Affiliate</a></li>
                         <li><a href="#">BNB</a></li>
                         <li><a href="#">Đăng ký niêm yết coin</a></li>
                         <li><a href="#">Đăng ký Thương nhân P2P</a></li>
