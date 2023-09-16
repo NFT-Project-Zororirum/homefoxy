@@ -13,8 +13,6 @@
 {{--             data-aos-delay="300"></div>--}}
 {{--    </div>--}}
 
-    <div class="pb-5">
-    </div>
 </header>
 {{--    <div class="pb-5">--}}
 {{--    </div>--}}
