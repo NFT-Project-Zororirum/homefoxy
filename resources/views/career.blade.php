@@ -237,97 +237,97 @@
     <div class="container">
         <section class="row mb-5">
             <h2 style="font-weight: 600">Choose Your Team</h2>
-            <div class="global-pc_des">Select a team most relevant to your interests and experience to view job
+            <div class="global-pc_des mb-3">Select a team most relevant to your interests and experience to view job
                 openings.
             </div>
             <div class="d-flex flex-wrap" style="gap: 0.5rem 2.25rem">
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-42.svg')}}" alt="">
                         <div class="mgl-auto">Business Development</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-43.svg')}}" alt="">
                         <div class="mgl-auto">Communications</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-44.svg')}}" alt="">
                         <div class="mgl-auto">Customer Support</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-45.svg')}}" alt="">
                         <div class="mgl-auto">Data & Research</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-46.svg')}}" alt="">
                         <div class="mgl-auto">Editorial & Video</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-47.svg')}}" alt="">
                         <div class="mgl-auto">Engineering</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-48.svg')}}" alt="">
                         <div class="mgl-auto">Finance & Administration</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-49.svg')}}" alt="">
                         <div class="mgl-auto">Legal & Compliance</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-50.svg')}}" alt="">
                         <div class="mgl-auto">Marketing</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-51.svg')}}" alt="">
                         <div class="mgl-auto">Operations, Strategy & Project Management</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-52.svg')}}" alt="">
                         <div class="mgl-auto">Product & Design</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-53.svg')}}" alt="">
                         <div class="mgl-auto">Quantitative Strategy</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-54.svg')}}" alt="">
                         <div class="mgl-auto">Security & IT Helpdesk</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-55.svg')}}" alt="">
                         <div class="mgl-auto">HR</div>
                     </a>
                 </div>
                 <div class="y-team col-lg-4 col-sm-12 col-md-12 row">
                     <a href="#" class="y-item d-flex align-items-center">
-                        <img src="{{asset('svg/svgexport-14.svg')}}" alt="">
+                        <img src="{{asset('svg-about/svgexport-56.svg')}}" alt="">
                         <div class="mgl-auto">Early Careers</div>
                     </a>
                 </div>
