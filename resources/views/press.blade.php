@@ -390,7 +390,7 @@
             </a>
             <a href="#" class="row col-12">
                 <img class="col-12 col-lg-4 mb-3"
-                     src="{{asset('img/about/0c80f67645aa8bb7944808311f852db9-cover.jpeg')}}" alt="">
+                     src="{{asset('img/about/4f924028c3a05cd528018037e435a9a0-cover.png')}}" alt="">
                 <div class="col-12 col-lg-8">
                     <h4 style="font-weight: 500">OTC Weekly Trading Insights (09/14/2023)</h4>
                     <p class="about-svg-des mb-5 text-gray">
