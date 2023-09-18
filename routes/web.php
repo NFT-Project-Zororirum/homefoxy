@@ -47,3 +47,7 @@ Route::get('/affiliate', function () {
 Route::get('/referral', function () {
     return view('referral');
 });
+
+Route::get('/link', function () {
+    return view('link');
+});
