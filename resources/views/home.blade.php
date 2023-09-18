@@ -1,6 +1,6 @@
 @extends('components.layout')
 @section('content')
-
+    <header class="header section" id="home">
         <div class="container pb-5">
             <div class="row justify-content-between align-items-center mt-5">
                 <div class="col-md-6 text-center  text-md-start">
