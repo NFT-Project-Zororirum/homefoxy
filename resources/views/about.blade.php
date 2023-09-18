@@ -62,6 +62,9 @@
             color: #F0B90B;
             transition: 0.3s ease-in;
         }
+        .box{
+            background-color: #fff;
+        }
 
         @media (min-width: 767px) {
             .card-blog__title {
@@ -103,6 +106,10 @@
 
             .svg-row div {
                 padding: 0px 30px;
+            }
+            .vip-mailbox{
+                width: 20%;
+                margin: 0px 35px;
             }
 
         }
@@ -149,6 +156,9 @@
                 font-size: 16px;
                 line-height: 24px;
                 margin-top: 16px;
+            }
+            .vip-mailbox{
+                display: none;
             }
         }
     </style>
@@ -539,36 +549,6 @@
                     </div>
                 </div>
             </section>
-            <section class="div-banner mb-5" style="padding: 50px 0px">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center align-items-center">
-                        <img class="vip-mailbox" src="{{asset('img/vipgate/mailbox.png')}}" alt="">
-                        <div class="vip-mailbox-content">
-                            <p class="vip-text mb-3">Tell us what features you want to see in the VIP Portal</p>
-                            <div class="d-flex">
-                                <input data-bn-type="input" placeholder="Share your thoughts" class="form-control ms-auto"
-                                       value="">
-                                <a href="#" class="btn btn-enter" style="margin: 0px 10px">Submit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="mb-5">
-                <div class="row">
-                    <h1 class="mb-5 text-center card-vip_title">Learn How to Become a Binance VIP</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-3 text-lg-end">
-                        <a href="#" class="btn btn-enter">More Infomation</a>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <a href="#" class="btn btn-enter">Frequently Asked
-                            Questions</a>
-                    </div>
-                </div>
-            </section>
-
         </div>
     </div>
 @endsection
