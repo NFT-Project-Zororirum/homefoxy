@@ -40,6 +40,10 @@ Route::get('/payment', function () {
 Route::get('/tax', function () {
     return view('tax');
 });
+
 Route::get('/affiliate', function () {
     return view('affiliate');
+});
+Route::get('/referral', function () {
+    return view('referral');
 });
