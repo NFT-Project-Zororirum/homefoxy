@@ -1,4 +1,15 @@
 @extends('components.layout')
+@section('style')
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+@endsection
+@section('script')
+    <script src="{{asset('assets/js/jquery-3.4.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/popper.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/amcharts-core.min.js')}}"></script>
+    <script src="{{asset('assets/js/amcharts.min.js')}}"></script>
+    <script src="{{asset('assets/js/custom.js')}}"></script>
+@endsection
 @section('content')
     <header class="header section" id="home">
         <div class="container pb-5">
@@ -26,6 +37,620 @@
             </div>
         </div>
     </header>
+    <section>
+        <div class="markets ptb70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="markets-container">
+                            <div class="markets-content">
+                                <h2>BTC Index</h2>
+                                <p>7340.65</p>
+                                <span class="green"> + 0.45%</span>
+                            </div>
+                            <div class="markets-chart">
+                                <div id="marketsChartBtcLight"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="markets-container">
+                            <div class="markets-content">
+                                <h2>ETH Index</h2>
+                                <p>146.58</p>
+                                <span class="red"> - 5.09%</span>
+                            </div>
+                            <div class="markets-chart">
+                                <div id="marketsChartEthLight"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="markets-container">
+                            <div class="markets-content">
+                                <h2>LTC Index</h2>
+                                <p>44.49</p>
+                                <span class="green"> + 2.14%</span>
+                            </div>
+                            <div class="markets-chart">
+                                <div id="marketsChartLtcLight"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="markets-pair-list">
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#STAR" role="tab"
+                                       aria-selected="false"><strong>Favorites</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#BTC" role="tab"
+                                       aria-selected="true">BTC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#KCS" role="tab" aria-selected="true">KCS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#USDT" role="tab" aria-selected="true">USDT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#ALTS" role="tab" aria-selected="true">ALTS</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show" id="STAR" role="tabpanel">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Coin</th>
+                                            <th>Last Price</th>
+                                            <th>Change (24H)</th>
+                                            <th>Volume (24h)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr data-href="exchange-light-2.html">
+
+                                            <td><img src="{{asset('assets/img/icon/1.png')}}" alt="eth"> ETH</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+
+                                            <td><img src="{{asset('assets/img/icon/2.png')}}" alt="vid"> EOS</td>
+                                            <td>6984.06</td>
+                                            <td class="red">-1.65%</td>
+                                            <td>431,684,298.45</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+
+                                            <td><img src="{{asset('assets/img/icon/3.png')}}" alt="bitcoin"> LTC</td>
+                                            <td>4582.06</td>
+                                            <td class="green">+2.62%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+
+                                            <td><img src="{{asset('assets/img/icon/4.png')}}" alt="bitcoin"> KCS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.94%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/5.png')}}" alt="bitcoin"> COTI</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/6.png')}}" alt="bitcoin"> TRX</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.71%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/7.png')}}" alt="bitcoin"> XMR</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.73%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/8.png')}}" alt="bitcoin"> ADA</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-1.20%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/9.png')}}" alt="bitcoin"> BNB</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.74%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/10.png')}}" alt="bitcoin"> NEO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade show active" id="BTC" role="tabpanel">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Coin</th>
+                                            <th>Last Price</th>
+                                            <th>Change (24H)</th>
+                                            <th>Volume (24h)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/1.png')}}" alt="eth"> ETH</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/2.png')}}" alt="vid"> EOS</td>
+                                            <td>6984.06</td>
+                                            <td class="red">-1.65%</td>
+                                            <td>431,684,298.45</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/3.png')}}" alt="bitcoin"> LTC</td>
+                                            <td>4582.06</td>
+                                            <td class="green">+2.62%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/4.png')}}" alt="bitcoin"> KCS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.94%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/5.png')}}" alt="bitcoin"> COTI</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/6.png')}}" alt="bitcoin"> TRX</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.71%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/7.png')}}" alt="bitcoin"> XMR</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.73%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/8.png')}}" alt="bitcoin"> ADA</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-1.20%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/9.png')}}" alt="bitcoin"> BNB</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.74%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/10.png')}}" alt="bitcoin"> NEO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/11.png')}}" alt="bitcoin"> TOMO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-4.78%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/12.png')}}" alt="bitcoin"> MKR</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.32%</td>
+                                            <td>431,687,258.14</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/13.png')}}" alt="bitcoin"> ZEC</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+5.53%</td>
+                                            <td>431,687,258.22</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/14.png')}}" alt="bitcoin"> VSYS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.52%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/15.png')}}" alt="bitcoin"> ATOM</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-2.78%</td>
+                                            <td>431,687,258.21</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/16.png')}}" alt="bitcoin"> MTV</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+1.78%</td>
+                                            <td>431,687,258.32</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/17.png')}}" alt="bitcoin"> XTZ</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.78%</td>
+                                            <td>431,687,258.25</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade show" id="KCS" role="tabpanel">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Coin</th>
+                                            <th>Last Price</th>
+                                            <th>Change (24H)</th>
+                                            <th>Volume (24h)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/1.png')}}" alt="eth"> ETH</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/2.png')}}" alt="vid"> EOS</td>
+                                            <td>6984.06</td>
+                                            <td class="red">-1.65%</td>
+                                            <td>431,684,298.45</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/3.png')}}" alt="bitcoin"> LTC</td>
+                                            <td>4582.06</td>
+                                            <td class="green">+2.62%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/4.png')}}" alt="bitcoin"> KCS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.94%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/5.png')}}" alt="bitcoin"> COTI</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/6.png')}}" alt="bitcoin"> TRX</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.71%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/7.png')}}" alt="bitcoin"> XMR</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.73%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/8.png')}}" alt="bitcoin"> ADA</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-1.20%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/9.png')}}" alt="bitcoin"> BNB</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.74%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/10.png')}}" alt="bitcoin"> NEO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/11.png')}}" alt="bitcoin"> TOMO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-4.78%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/12.png')}}" alt="bitcoin"> MKR</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.32%</td>
+                                            <td>431,687,258.14</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/13.png')}}" alt="bitcoin"> ZEC</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+5.53%</td>
+                                            <td>431,687,258.22</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/14.png')}}" alt="bitcoin"> VSYS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.52%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/15.png')}}" alt="bitcoin"> ATOM</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-2.78%</td>
+                                            <td>431,687,258.21</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/16.png')}}" alt="bitcoin"> MTV</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+1.78%</td>
+                                            <td>431,687,258.32</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/17.png')}}" alt="bitcoin"> XTZ</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.78%</td>
+                                            <td>431,687,258.25</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade show" id="USDT" role="tabpanel">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Coin</th>
+                                            <th>Last Price</th>
+                                            <th>Change (24H)</th>
+                                            <th>Volume (24h)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/1.png')}}" alt="eth"> ETH</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/2.png')}}" alt="vid"> EOS</td>
+                                            <td>6984.06</td>
+                                            <td class="red">-1.65%</td>
+                                            <td>431,684,298.45</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/3.png')}}" alt="bitcoin"> LTC</td>
+                                            <td>4582.06</td>
+                                            <td class="green">+2.62%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/4.png')}}" alt="bitcoin"> USDT</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.94%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/5.png')}}" alt="bitcoin"> COTI</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/6.png')}}" alt="bitcoin"> TRX</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.71%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/7.png')}}" alt="bitcoin"> XMR</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.73%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/8.png')}}" alt="bitcoin"> ADA</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-1.20%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/9.png')}}" alt="bitcoin"> BNB</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.74%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/10.png')}}" alt="bitcoin"> NEO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/11.png')}}" alt="bitcoin"> TOMO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-4.78%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/12.png')}}" alt="bitcoin"> MKR</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.32%</td>
+                                            <td>431,687,258.14</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/13.png')}}" alt="bitcoin"> ZEC</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+5.53%</td>
+                                            <td>431,687,258.22</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/14.png')}}" alt="bitcoin"> VSYS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.52%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/15.png')}}" alt="bitcoin"> ATOM</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-2.78%</td>
+                                            <td>431,687,258.21</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/16.png')}}" alt="bitcoin"> MTV</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+1.78%</td>
+                                            <td>431,687,258.32</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/17.png')}}" alt="bitcoin"> XTZ</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.78%</td>
+                                            <td>431,687,258.25</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade show" id="ALTS" role="tabpanel">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Coin</th>
+                                            <th>Last Price</th>
+                                            <th>Change (24H)</th>
+                                            <th>Volume (24h)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/1.png')}}" alt="eth"> ETH</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/2.png')}}" alt="vid"> EOS</td>
+                                            <td>6984.06</td>
+                                            <td class="red">-1.65%</td>
+                                            <td>431,684,298.45</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/3.png')}}" alt="bitcoin"> LTC</td>
+                                            <td>4582.06</td>
+                                            <td class="green">+2.62%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/4.png')}}" alt="bitcoin"> ALTS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.94%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/5.png')}}" alt="bitcoin"> COTI</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.78%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/6.png')}}" alt="bitcoin"> TRX</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.71%</td>
+                                            <td>431,687,258.53</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/7.png')}}" alt="bitcoin"> XMR</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.73%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/8.png')}}" alt="bitcoin"> ADA</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-1.20%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/9.png')}}" alt="bitcoin"> BNB</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.74%</td>
+                                            <td>431,687,258.23</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/10.png')}}" alt="bitcoin"> NEO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-0.78%</td>
+                                            <td>431,687,258.77</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/11.png')}}" alt="bitcoin"> TOMO</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-4.78%</td>
+                                            <td>431,687,258.33</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/12.png')}}" alt="bitcoin"> MKR</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+0.32%</td>
+                                            <td>431,687,258.14</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/13.png')}}" alt="bitcoin"> ZEC</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+5.53%</td>
+                                            <td>431,687,258.22</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/14.png')}}" alt="bitcoin"> VSYS</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.52%</td>
+                                            <td>431,687,258.35</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/15.png')}}" alt="bitcoin"> ATOM</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-2.78%</td>
+                                            <td>431,687,258.21</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/16.png')}}" alt="bitcoin"> MTV</td>
+                                            <td>7394.06</td>
+                                            <td class="green">+1.78%</td>
+                                            <td>431,687,258.32</td>
+                                        </tr>
+                                        <tr data-href="exchange-light-2.html">
+                                            <td><img src="{{asset('assets/img/icon/17.png')}}" alt="bitcoin"> XTZ</td>
+                                            <td>7394.06</td>
+                                            <td class="red">-3.78%</td>
+                                            <td>431,687,258.25</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="load-more btn">Load More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Credit Cards Management -->
     <section class="section anime-background">
         <div class="shapes-container">
@@ -312,11 +937,11 @@
                     </div>
 
                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eligendi esse,
-                        facilis fugit inventore iste itaque labore magni minima minus molestiae neque nesciunt nihil
+                        facilis <br> fugit inventore iste itaque labore magni minima minus molestiae neque nesciunt nihil
                         nobis
-                        nulla, quaerat quibusdam repellat sequi!</p>
+                        <br>  nulla,quaerat quibusdam repellat sequi!</p>
 
-                    <a href="/login" class="btn btn-rounded btn-outline-darker">Learn Moreb</a>
+                    <a href="/login" class="btn btn-rounded btn-outline-darker">Learn More</a>
                 </div>
             </div>
         </div>
@@ -619,7 +1244,7 @@
 
     <!-- Features -->
     <section class="section anime-background">
-        <div class="shapes-container">
+        <div class="shapes-container" style="width: 100%">
             <div class="static-shape shape-main left"></div>
         </div>
 
@@ -642,7 +1267,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Dashboard</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-anime mb-3">
@@ -657,7 +1282,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Save money</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-anime mb-3">
@@ -679,7 +1304,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Design tools</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-anime mb-3">
@@ -695,7 +1320,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Updates</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-anime mb-3">
@@ -710,7 +1335,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Dashboard</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-anime mb-3">
@@ -725,7 +1350,7 @@
                     </div>
 
                     <p class="my-0 bold lead text-dark">Save money</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
@@ -887,7 +1512,7 @@
 
                         <!-- Prev button -->
                         <div class="swiper-button swiper-button-prev nav-testimonial-prev rounded-circle shadow ">
-                            <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24 " height="24 " viewBox="0 0 24 24 "
                                  fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round "
                                  stroke-linejoin="round " class="feather feather-arrow-left
                         ">
@@ -1023,7 +1648,7 @@
 
                         <!-- Next button -->
                         <div class="swiper-button swiper-button-next nav-testimonial-next rounded-circle shadow ">
-                            <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24 " height="24 " viewBox="0 0 24 24 "
                                  fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round "
                                  stroke-linejoin="round " class="feather feather-arrow-right
                         ">
@@ -1132,7 +1757,7 @@
     </section>
 
     <!-- Try it -->
-    <section class="section anime-background ">
+    <section class="section anime-background">
         <div class="shapes-container ">
             <div class="static-shape shape-main left "></div>
         </div>
@@ -1157,7 +1782,7 @@
             </a>
         </div>
     </section>
-    <blockquote>
+    <blockquote class="mt-5 mb-5 text-center">
         Today I shall be meeting with interference, ingratitude, insolence, disloyalty, ill-will, and selfishness all of
         them due to the offenders' ignorance of what is good or evil..
     </blockquote>
