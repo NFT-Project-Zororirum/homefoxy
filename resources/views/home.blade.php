@@ -1,6 +1,260 @@
 @extends('components.layout')
 @section('style')
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <style>
+        .ptb70 {
+            padding: 70px 0;
+        }
+
+        .markets-container {
+            position: relative;
+            overflow: hidden;
+            height: 159px;
+            border: 1px solid rgba(0, 0, 0, 0.02);
+            box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .markets-content span.green,
+        .markets-content span.red {
+            position: absolute;
+            right: 0;
+            background: #26a69a;
+            color: #fff;
+            top: 15px;
+            padding: 3px 12px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            font-weight: 600;
+        }
+
+        #dark .markets-content h2,
+        #dark .markets-content p {
+            color: #ffffff;
+        }
+
+        #dark .markets-content span.green,
+        #dark .markets-content span.red {
+            color: #fff;
+        }
+
+        .markets-content span.red {
+            background: #ef5350;
+        }
+
+        .markets-content h2 {
+            font-size: 14px;
+            top: 14px;
+            position: absolute;
+            left: 15px;
+            color: #4a4a4a;
+        }
+
+        .markets-content p {
+            position: absolute;
+            top: 32px;
+            left: 15px;
+            font-size: 16px;
+        }
+        .markets-chart {
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            left: 0;
+        }
+
+        #dark .markets-pair-list .nav {
+            background: #1c2030;
+        }
+
+        #dark .markets-pair-list .nav-link.active,
+        #dark #STAR i {
+            color: #ffffff;
+        }
+
+        #dark thead th,
+        #dark .markets-pair-list .nav-link {
+            color: #4f5966;
+        }
+
+        #dark .markets-pair-list .load-more {
+            border: 1px solid #2a2e39;
+            color: #ffffff;
+        }
+
+        #dark .markets-pair-list .load-more:hover {
+            color: #fff;
+            border: 1px solid #007bff;
+        }.markets-pair-list tr {
+             cursor: pointer;
+         }
+
+        .markets-pair-list th,
+        .markets-pair-list td {
+            padding: 15px !important;
+            width: 16%;
+            font-size: 14px;
+        }
+
+        .markets-pair-list tbody tr td i {
+            color: #75869696;
+        }
+
+        .markets-pair-list .nav-link.active {
+            color: #007bff;
+            background: transparent;
+        }
+
+        .markets-pair-list .nav-link {
+            color: #4a4a4a;
+        }
+
+        .markets-pair-list .nav {
+            background: #f5f9fc;
+            padding: 7px 0;
+        }
+
+        .markets-pair-list th {
+            font-weight: 400;
+        }
+
+        .markets-pair-list td img {
+            width: 18px;
+            vertical-align: text-top;
+            margin-right: 5px;
+        }
+
+        .markets-pair-list .load-more {
+            border: 1px solid #e0e3eb;
+            display: inline-block;
+            padding: 11px 30px 8px;
+            color: #4a4a4a;
+            margin-top: 50px;
+            transition: 0.3s;
+        }
+
+        .markets-pair-list .load-more i {
+            margin-left: 10px;
+        }
+        .green {
+            color: #26de81;
+        }
+
+        .red {
+            color: #ff231f;
+        }
+
+        .markets-pair-list .load-more:hover {
+            background: #007bff;
+            color: #fff;
+            border: 1px solid #007bff;
+        }
+        #dark .wallet .nav-pills a,
+        #dark .wallet-history {
+            border-top: 1px solid #2a2e39;
+        }
+
+        #dark .wallet .nav {
+            background: #1e222d;
+        }
+
+        #dark .wallet h2,
+        #dark .wallet h3,
+        #dark .wallet h4,
+        #dark .wallet p {
+            color: #ffffff;
+        }
+
+        #dark .wallet button.green,
+        #dark .wallet button.red,
+        #dark .wallet .nav-pills a.active h2,
+        #dark .wallet .nav-pills a.active h3,
+        #dark .wallet .nav-pills a.active p {
+            color: #ffffff;
+        }
+        .settings .wallet .nav-pills img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .settings .wallet .nav-pills h2 {
+            margin-bottom: 0;
+            line-height: 1;
+            color: #18214d;
+            font-size: 22px;
+        }
+
+        .settings .wallet .nav-pills p {
+            margin-bottom: 0;
+            color: #18214d;
+        }
+
+        .settings .wallet .nav-pills a.active {
+            background: #0f7dff;
+        }
+
+        .settings .wallet .nav-pills a {
+            border-top: 1px solid #f0f3fa;
+            padding: 15px;
+        }
+
+        .settings .wallet .nav-pills a:first-child,
+        .settings-nav .nav-link:first-child {
+            border-top: 0;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        .settings .wallet .nav-pills a:last-child,
+        .settings .settings-nav .nav-link:last-child {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .settings .wallet .nav-pills h3 {
+            color: #18214d;
+            margin-bottom: 0;
+        }
+
+        .settings .wallet .nav-pills {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+            border-radius: 5px;
+        }
+
+        .settings .wallet .nav-pills a {
+            border-radius: 0;
+        }
+
+        .settings .wallet .nav-pills a.active h2,
+        .settings .wallet .nav-pills a.active h3,
+        .settings .wallet .nav-pills a.active p {
+            color: #ffffff;
+        }
+        .market-trade .nav .nav-item .nav-link.active {
+            background: #fff;
+            color: #007bff;
+        }
+
+        .market-trade .nav .nav-item .nav-link {
+            color: #4a4a4a;
+            padding: 0;
+        }
+
+        .market-trade .input-group-text {
+            background: #eff2f6;
+            color: #4a4a4a;
+            font-weight: 300;
+        }
+
+        .market-trade .input-group {
+            margin-bottom: 14px;
+        }
+
+        .market-trade .nav-item {
+            margin-right: 30px;
+        }
+    </style>
 @endsection
 @section('script')
     <script src="{{asset('assets/js/jquery-3.4.1.min.js')}}"></script>
@@ -937,9 +1191,10 @@
                     </div>
 
                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eligendi esse,
-                        facilis <br> fugit inventore iste itaque labore magni minima minus molestiae neque nesciunt nihil
+                        facilis <br> fugit inventore iste itaque labore magni minima minus molestiae neque nesciunt
+                        nihil
                         nobis
-                        <br>  nulla,quaerat quibusdam repellat sequi!</p>
+                        <br> nulla,quaerat quibusdam repellat sequi!</p>
 
                     <a href="/login" class="btn btn-rounded btn-outline-darker">Learn More</a>
                 </div>
