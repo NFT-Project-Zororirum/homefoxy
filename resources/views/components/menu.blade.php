@@ -12,16 +12,17 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link text-dark" style="font-size: 14px" href="#">BuyCrypto</a>
+                    <li class="nav-item link-mobile">
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Fan Token.svg')}}" class="title-icon" alt="" style="margin-right: 2%">BuyCrypto</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="font-size: 14px" href="#">Markets</a>
+                    <li class="nav-item link-mobile">
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Institutional Home.svg')}}" class="title-icon" alt="" style="margin-right: 2%">Markets</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px" href="#"
-                           id="navbarDropdown" role="button"
+                    <li class="nav-item link-mobile dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"
+                           id="navbarDropdown1" role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{{asset('icon/VIP Loan.svg')}}" class="title-icon" alt="">
                             Invest
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -30,7 +31,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Spot</div>
@@ -41,7 +42,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Margin</div>
@@ -52,7 +53,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">P2P</div>
@@ -63,7 +64,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Convert</div>
@@ -76,7 +77,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Trading Bots</div>
@@ -88,7 +89,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Block Trading</div>
@@ -100,7 +101,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">API</div>
@@ -112,10 +113,11 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px" href="#"
-                           id="navbarDropdown" role="button"
+                    <li class="nav-item link-mobile dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"
+                           id="navbarDropdown2" role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{{asset('icon/Asset Management Solutions.svg')}}" class="title-icon" alt="">
                             Futures
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -124,7 +126,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">USD-M Futures</div>
@@ -137,7 +139,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">COIN-M Futures</div>
@@ -150,7 +152,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Options</div>
@@ -162,13 +164,14 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" style="font-size: 14px" href="#">Earn</a>
+                    <li class="nav-item link-mobile">
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Loans.svg')}}" class="title-icon" alt="" style="margin-right: 2%">Earn</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px" href="#"
-                           id="navbarDropdown" role="button"
+                    <li class="nav-item link-mobile dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"
+                           id="navbarDropdown3" role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{{asset('icon/Mining Pool.svg')}}" class="title-icon" alt="">
                             Learn
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -177,7 +180,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Feed</div>
@@ -188,7 +191,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Learn & Earn</div>
@@ -199,7 +202,7 @@
                                     <li>
                                         <a href="/blog" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Blog</div>
@@ -211,7 +214,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Research</div>
@@ -223,10 +226,11 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px" href="#"
-                           id="navbarDropdown" role="button"
+                    <li class="nav-item link-mobile dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"
+                           id="navbarDropdown4" role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{{asset('icon/Historical Market Data.svg')}}" class="title-icon" alt="">
                             More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -235,7 +239,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/NFT.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/NFT.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">NFT</div>
@@ -246,7 +250,7 @@
                                     <li>
                                         <a href="/assets-management" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Asset Management Solutions.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Asset Management Solutions.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Management Solutions</div>
@@ -259,7 +263,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Link.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Link.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Link</div>
@@ -271,7 +275,7 @@
                                     <li>
                                         <a href="/vip-gate" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/VIP Portal.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/VIP Portal.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">VIP Portal</div>
@@ -283,7 +287,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/VIP Loan.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/VIP Loan.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">VIP Loan</div>
@@ -297,7 +301,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Launchpad.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Launchpad.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Launchpad</div>
@@ -308,7 +312,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Mining Pool.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Mining Pool.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Mining Pool</div>
@@ -320,7 +324,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Pay.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Pay.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Pay</div>
@@ -331,7 +335,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Loans.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Loans.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Loans</div>
@@ -343,7 +347,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Historical Market Data.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Historical Market Data.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Historical Market Data</div>
@@ -356,7 +360,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Institutional Home.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Institutional Home.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Institutional Home</div>
@@ -368,7 +372,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Fan Token.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Fan Token.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Fan Token</div>
@@ -379,7 +383,7 @@
                                     <li>
                                         <a href="/web3wallet" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DeFi Wallet.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DeFi Wallet.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Web3 Wallet</div>
@@ -390,7 +394,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/DEX.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/DEX.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">BNB Chain</div>
@@ -402,7 +406,7 @@
                                     <li>
                                         <a href="#" class="nav-link d-flex align-items-center text-dark">
                                             <div>
-                                                <img src="{{asset('icon/Charity.svg')}}" alt="" width="35px">
+                                                <img src="{{asset('icon/Charity.svg')}}" class="img-icon"  alt="" width="35px">
                                             </div>
                                             <div> <!-- Sử dụng lớp ms-auto ở đây -->
                                                 <div class="title-sub">Charity</div>
@@ -414,7 +418,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item ms-auto">
+                    <li class="nav-item ms-auto start-now">
                         <a class="nav-link btn btn-primary text-white p-2" href="/login">Start Now !</a>
                     </li>
                 </ul>
