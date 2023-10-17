@@ -13,10 +13,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item link-mobile">
-                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Fan Token.svg')}}" class="title-icon" alt="" style="margin-right: 2%">BuyCrypto</a>
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Fan Token.svg')}}" class="title-icon" alt="" style="margin-right: 4%">BuyCrypto</a>
                     </li>
                     <li class="nav-item link-mobile">
-                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Institutional Home.svg')}}" class="title-icon" alt="" style="margin-right: 2%">Markets</a>
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Institutional Home.svg')}}" class="title-icon" alt="" style="margin-right: 4%">Markets</a>
                     </li>
                     <li class="nav-item link-mobile dropdown">
                         <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"
@@ -165,7 +165,7 @@
                         </div>
                     </li>
                     <li class="nav-item link-mobile">
-                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Loans.svg')}}" class="title-icon" alt="" style="margin-right: 2%">Earn</a>
+                        <a class="nav-link text-dark" style="font-size: 14px; padding-left: 5%" href="#"><img src="{{asset('icon/Loans.svg')}}" class="title-icon" alt="" style="margin-right: 4%">Earn</a>
                     </li>
                     <li class="nav-item link-mobile dropdown">
                         <a class="nav-link dropdown-toggle text-dark" style="font-size: 14px; padding-left: 5%" href="#"

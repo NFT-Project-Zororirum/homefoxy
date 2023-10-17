@@ -44,10 +44,7 @@
                 display: none;
             }
 
-            .link-mobile {
-                width: 100%;
-                padding: 0 2% 0 2%;
-            }
+
 
             .link-mobile .nav-link {
                 font-size: 16px !important;
