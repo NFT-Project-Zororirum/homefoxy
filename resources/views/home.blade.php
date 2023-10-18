@@ -1722,42 +1722,42 @@
                                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
                                      data-swiper-slide-index="3" style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/6.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/6.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/6.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/6.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
                                      style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/3.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/3.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/3.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/3.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                                 <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
                                      style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/2.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/2.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/2.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/2.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                                 <div class="swiper-slide" data-swiper-slide-index="2" style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/5.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/5.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/5.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/5.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                                 <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3"
                                      style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/6.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/6.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/6.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/6.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
                                      data-swiper-slide-index="0" style="width: 347px;">
                                     <figure class="m-0 image-background cover "
-                                            style="background-image: url({{asset('img/testimonials/3.jpg')}}) ">
-                                        <img src="{{asset('img/testimonials/3.jpg')}} " alt="... " class="invisible ">
+                                            style="background-image: url({{asset('img/logos/companies/3.jpg')}}) ">
+                                        <img src="{{asset('img/logos/companies/3.jpg')}} " alt="... " class="invisible ">
                                     </figure>
                                 </div>
                             </div>
@@ -1799,7 +1799,7 @@
                                                 elit. Atque, quas sunt enim tempore minima tenetur voluptatem provident.
                                                 Incidunt accusantium.</p>
                                             <footer class="blockquote-footer ">
-                                                <span class="h6 text-uppercase ">Jane Doe}</span>
+                                                <span class="h6 text-uppercase ">Jane Doe</span>
                                             </footer>
                                         </blockquote>
                                     </div>
